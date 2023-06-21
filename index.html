@@ -1,0 +1,159 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal website </title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">"> 
+</head>
+<body>
+    <section class="header">
+        
+        <nav>
+            <a href="index.html"><img src="/logo2.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+               
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        <div class="text-box">
+            <h1>Andreea Merloiu engineer</h1>
+            <p>I am a biomedical engineer as well as a software developer <br>I have a passion for innovation and development.</p>
+            <a href="contact.html" class="hero-btn">Contact me </a>
+        </div>
+    </section>
+    
+<!---------- general information ----------->
+    
+    <section class="information">
+        <h1>Projects and work</h1>
+        
+        <div class="row">
+            <div class="information-col">
+                <h3>Patent</h3>
+                <p>Lateral assist is a device meant for geriatric patients that.</p>
+                <a href="https://launchpad.syr.edu/andreea-merloiu/"> Article of lateral-assist</a>
+            </div>
+            <div class="information-col">
+                <h3>Work</h3>
+                <p>I am currently working full time as a manufacturing engineer for a company called Protein Fluidics.I also have background in sales of medical equipment in hospital settings.</p>
+
+            </div>
+            <div class="information-col">
+                <h3>Projects</h3>
+                <p>Software projects that have a variety of different capabilities.</p>
+                <a href="https://github.com/andreeamerloiu"> Software projects </a>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Achievements  ---------->
+    
+    <section class="achievements">
+        <h1>Different achievements</h1>
+        <p></p>
+            <div class="row">
+                <div class="achievements-col">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgExQq6YMo5oTTjfGt6OAe2a6Jmkbdy7aQIw&usqp=CAU">
+                    <div class="layer">
+                        <h3>Lympssage</h3>
+                        
+                    </div>
+                    
+                </div>
+                <div class="achievements-col">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc1c1E6bN_IqhwpPhJPZOZ4oF3zrvCtRgC4-pbmiX3Yu214weFn4smibOsKg-pKTiOlds&usqp=CAU">
+                    <div class="layer">
+                        <h3>Lateral assist</h3>
+                    </div>
+                </div>
+                <div class="achievements-col">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbZzRANXUzcSc9rg5sdMVPy0fSpC6YRIV5pQ&usqp=CAU">
+                    <div class="layer">
+                        <h3>Software projects</h3>
+                    </div>
+                </div>
+                
+            </div>
+    </section>
+    
+<!---------- Projects ---------->
+    
+    <section class="projects">
+        <h1>Software Projects</h1>
+        <p>Github projects </p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="https://cdn.dribbble.com/userupload/3772713/file/still-fc903bb220a0746203642bc9bce89e08.png?resize=400x0">
+                    <h3>E-commerce</h3>
+                    <p>E-commerce website for grocery shopping </p>
+                </div>
+                <div class="facility-col">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJexwmEI6947CK6g0spw-6EY3ubyVwV2i-9RiL6fI6w21Cgx-Bja80G5FzYwdQ3Lu_VU8&usqp=CAU">
+                    <h3>Company website </h3>
+                    <p>Pawn shop company website </p>
+                </div>
+                <div class="facility-col">
+                    <img src="https://cdn.dribbble.com/users/883389/screenshots/16717343/media/1830388a78564d37b92018b58c7063bc.jpg?resize=400x0">
+                    <h3>Craiglist app</h3>
+                    <p>Craoiglist app for selling random thing</p>
+                </div>
+            </div>
+    </section>
+    
+    
+
+    
+<!------ Call To Action ------>
+
+<section class="cta">
+    
+       <h1>Book services</h1>
+        <a href="https://www.linkedin.com/in/andreea-merloiu-39a65117b" class="hero-btn">CONTACT ME</a>
+    
+</section>    
+ 
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Me</h4>
+        <p>Please reach out on any of the platforms</p>
+        <div class="icons">
+            <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+            <a href="https://github.com/andreeamerloiu"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/andreea-merloiu-39a65117b"><i class="fa fa-linkedin"></i></a>
+            
+        </div>
+        
+</section>    
+  
+  <!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+   </script>
+    
+</body>
+</html>
+
+
+
+
+
+
+
